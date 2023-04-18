@@ -3,4 +3,6 @@
     <string name="mainActivity_Text">Welcome to the main activity</string>
     <string name="mainActivity_Button">To second activity</string>
     <string name="secondActivity_Text">Welcome to the second activity</string>
+    <string name="secondActivity_type">Pancake type:</string>
+    <string name="secondActivity_amount">Amount:</string>
 </resources>
