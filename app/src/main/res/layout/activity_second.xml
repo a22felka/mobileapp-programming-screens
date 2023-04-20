@@ -4,13 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:scaleX="0.9"
+    android:scaleY="0.9"
     tools:context=".SecondActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:scaleX="1"
+        android:scaleY="1"
         android:text="@string/secondActivity_Text"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,7 +44,7 @@
 
         <TextView
             android:id="@+id/extraString"
-            android:layout_width="wrap_content"
+            android:layout_width="155dp"
             android:layout_height="wrap_content"
             android:text="@+id/pancakeType"
             app:layout_constraintStart_toEndOf="@+id/textView3"
@@ -54,11 +60,11 @@
 
         <TextView
             android:id="@+id/extraString2"
-            android:layout_width="wrap_content"
+            android:layout_width="190dp"
             android:layout_height="wrap_content"
             android:text="@+id/pancakeAmount"
             app:layout_constraintStart_toEndOf="@+id/textView4"
-            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+            app:layout_constraintTop_toBottomOf="@+id/extraString" />
 
         <TextView
             android:id="@+id/textView4"
@@ -66,7 +72,7 @@
             android:layout_height="wrap_content"
             android:text="@string/secondActivity_amount"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+            app:layout_constraintTop_toBottomOf="@+id/extraString" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
