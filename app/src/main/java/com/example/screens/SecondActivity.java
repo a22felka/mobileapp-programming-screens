@@ -25,8 +25,9 @@ public class SecondActivity extends AppCompatActivity {
 
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
-            pancakeType = extras.getString("Pancake type");
+            String pancakeType = extras.getString("Pancake type");
             pancakeAmount = extras.getString("amount");
+
             typ.setText(pancakeType);
             mengd.setText(pancakeAmount);
         }
