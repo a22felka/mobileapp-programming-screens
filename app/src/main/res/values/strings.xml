@@ -2,7 +2,8 @@
     <string name="app_name">Screens</string>
     <string name="mainActivity_Text">Welcome to the Pancake Palace</string>
     <string name="mainActivity_Button">Confirm</string>
-    <string name="secondActivity_Text">Welcome to the second activity</string>
+    <string name="secondActivity_Text">Here is your current order</string>
     <string name="secondActivity_type">Pancake type:</string>
     <string name="secondActivity_amount">Amount:</string>
+    <string name="secondActivity_button">Place Order!</string>
 </resources>
